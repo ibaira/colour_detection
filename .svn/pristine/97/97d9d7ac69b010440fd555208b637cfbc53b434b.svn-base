@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "colour_detection")
+set(colour_detection_MAINTAINER "baira <baira@todo.todo>")
+set(colour_detection_DEPRECATED "")
+set(colour_detection_VERSION "0.0.0")
+set(colour_detection_BUILD_DEPENDS "cv_bridge" "image_transport" "image_view" "opencv2" "opencv" "std_msgs" "roscpp" "sensor_msgs" "image_geometry")
+set(colour_detection_RUN_DEPENDS "cv_bridge" "image_transport" "image_view" "opencv2" "opencv" "std_msgs" "roscpp" "sensor_msgs" "image_geometry")
+set(colour_detection_BUILDTOOL_DEPENDS "catkin")

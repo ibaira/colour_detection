@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+ <launch>
+    <node name="find_summit_final" pkg="colour_detection" type="find_summit_final" output="screen">
+    <!--COLOUR SELECTION-->
+    <param name="h_min" value="0"/>
+    <param name="h_max" value="10"/>
+    <param name="s_min" value="241"/>
+    <param name="s_max" value="256"/>
+    <param name="v_min" value="237"/>
+    <param name="v_max" value="256"/>
+    <!--TARJET SIZE-->
+    <param name="teoric_size_m" value="0.21"/> <!--Value in m2-->
+    <!--TARJET NUM_SIDES-->
+    <param name="min_num_sides" value="4"/>
+    <param name="max_num_sides" value="10"/>
+
+    <!--TOPICS-->
+    <param name="summit_position_topic" value="/find_summit_final/Estimated_position"/>
+    <param name="image_topic" value="/quadrotor/downward_cam/camera/image"/>
+    <param name="cam_info_topic" value="/quadrotor/downward_cam/camera/camera_info"/>
+    <param name="altitude" value="/quadrotor/sonar_height"/>
+    <param name="imu_topic" value="/quadrotor/raw_imu"/>
+  </node>
+  <!--node name="predict_step" pkg="colour_detection" type="predict_step" output="screen"/-->
+ </launch>

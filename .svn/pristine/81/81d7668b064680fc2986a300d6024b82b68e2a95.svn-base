@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+ <launch>
+	<node name="find_summit" pkg="colour_detection" type="find_summit" output="screen" />
+ 
+ </launch>

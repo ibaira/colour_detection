@@ -1,0 +1,78 @@
+#include <ros/ros.h>
+#include <image_transport/image_transport.h>
+#include <opencv/cv.h>
+#include <cv_bridge/cv_bridge.h>
+#include <image_geometry/pinhole_camera_model.h>
+#include <sensor_msgs/image_encodings.h>
+#include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/highgui/highgui.hpp"
+#include <boost/thread/mutex.hpp>
+
+static const char WINDOW_NAME[] = "window_image_real";
+
+class FindSummit
+{
+
+  image_transport::CameraSubscriber sub_;
+  image_transport::Publisher pub_;
+  //ros::Timer timer_;
+  cv::Mat image;
+
+
+public:
+  FindSummit();  
+
+  void imageCb(const sensor_msgs::ImageConstPtr& image_msg,const sensor_msgs::CameraInfoConstPtr& info_msg);
+  void imageShow (const ros::TimerEvent& e);
+
+};
+
+
+ FindSummit::FindSummit()
+{
+	ROS_INFO("Init Class");
+	ros::NodeHandle nh_;
+	//ros::NodeHandle nh_priv("~");
+	image_transport::ImageTransport it_(nh_);
+    std::string image_topic = "/quadrotor/downward_cam/camera/image";
+    cv::namedWindow(WINDOW_NAME, CV_WINDOW_AUTOSIZE); ROS_INFO("Window opened"); //cv::waitKey(0);
+    sub_ = it_.subscribeCamera(image_topic, 1, &FindSummit::imageCb, this);
+    pub_ = it_.advertise("image_out", 1);
+   // timer_ = nh_priv.createTimer(ros::Duration(0.5), &FindSummit::imageShow, this);
+    cv::destroyWindow(WINDOW_NAME);
+	ROS_INFO("Setup completed");
+  }
+  
+///Function shows the image
+  void FindSummit::imageCb(const sensor_msgs::ImageConstPtr& image_msg,
+               const sensor_msgs::CameraInfoConstPtr& info_msg)
+  {
+    cv::Mat image_hsv;
+    cv_bridge::CvImagePtr input_bridge;
+    ROS_INFO("Img recieved");
+    try {
+      input_bridge = cv_bridge::toCvCopy(image_msg, sensor_msgs::image_encodings::BGR8);
+      image = input_bridge->image;
+    }
+    catch (cv_bridge::Exception& ex){
+      ROS_ERROR("[draw_frames] Failed to convert image");
+      return;
+    }
+    
+	pub_.publish(input_bridge->toImageMsg());
+	ROS_INFO("Img show");
+	cv::imshow(WINDOW_NAME, image);
+	cv::waitKey(3);
+
+    ROS_INFO("Img show end");
+  }
+  
+
+int main(int argc, char** argv)
+{
+  ros::init(argc, argv, "window");
+  ROS_INFO("Ros node started");
+  FindSummit find_red_summit;
+  ROS_INFO("Spinning");
+  ros::spin();
+}

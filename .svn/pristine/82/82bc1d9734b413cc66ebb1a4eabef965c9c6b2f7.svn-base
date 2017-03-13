@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/baira/catkin_ws/devel/colour_detection/build/devel/setup.sh

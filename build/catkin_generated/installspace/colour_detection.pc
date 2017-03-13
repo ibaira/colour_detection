@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: colour_detection
+Description: Description of colour_detection
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: cv_bridge image_transport image_view opencv2 opencv sensor_msgs image_geometry

@@ -1,0 +1,24 @@
+digraph G {
+"/quadrotor/base_link" -> "/quadrotor/downward_cam_link"[label="Broadcaster: /quadrotor/robot_state_publisher_hector\nAverage rate: 50.254 Hz\nMost recent transform: 1408443969.227 sec old \nBuffer length: 3.940 sec\n"];
+"/quadrotor/base_stabilized" -> "/quadrotor/base_link"[label="Broadcaster: /quadrotor/ground_truth_to_tf\nAverage rate: 100.254 Hz\nMost recent transform: 1408443969.753 sec old \nBuffer length: 3.930 sec\n"];
+"/quadrotor/downward_cam_link" -> "/quadrotor/downward_cam_optical_frame"[label="Broadcaster: /quadrotor/robot_state_publisher_hector\nAverage rate: 50.254 Hz\nMost recent transform: 1408443969.227 sec old \nBuffer length: 3.940 sec\n"];
+"/quadrotor/base_link" -> "/quadrotor/sonar_link"[label="Broadcaster: /quadrotor/robot_state_publisher_hector\nAverage rate: 50.254 Hz\nMost recent transform: 1408443969.227 sec old \nBuffer length: 3.940 sec\n"];
+"/nav" -> "/quadrotor/base_footprint"[label="Broadcaster: /quadrotor/ground_truth_to_tf\nAverage rate: 100.254 Hz\nMost recent transform: 1408443969.753 sec old \nBuffer length: 3.930 sec\n"];
+"/map" -> "/nav"[label="Broadcaster: /global_origin_for_quadrotor\nAverage rate: 10.251 Hz\nMost recent transform: 1408443969.648 sec old \nBuffer length: 3.902 sec\n"];
+"/quadrotor/base_footprint" -> "/quadrotor/base_stabilized"[label="Broadcaster: /quadrotor/ground_truth_to_tf\nAverage rate: 100.254 Hz\nMost recent transform: 1408443969.753 sec old \nBuffer length: 3.930 sec\n"];
+"/map" -> "/summit_XL/odom_combined"[label="Broadcaster: /global_origin_for_summit_xl\nAverage rate: 10.238 Hz\nMost recent transform: 1408443969.641 sec old \nBuffer length: 3.907 sec\n"];
+"/summit_XL/base_footprint" -> "/summit_XL/base_link"[label="Broadcaster: /summit_XL/robot_state_publisher\nAverage rate: 10.256 Hz\nMost recent transform: 1408443969.229 sec old \nBuffer length: 3.900 sec\n"];
+"/summit_XL/odom_combined" -> "/summit_XL/base_footprint"[label="Broadcaster: /summit_XL/ekf_pose\nAverage rate: 22.500 Hz\nMost recent transform: 1408443969.764 sec old \nBuffer length: 0.400 sec\n"];
+"/summit_XL/hokuyo_laser_link" -> "/summit_XL/hokuyo_laser_box_link"[label="Broadcaster: /summit_XL/robot_state_publisher\nAverage rate: 10.256 Hz\nMost recent transform: 1408443969.229 sec old \nBuffer length: 3.900 sec\n"];
+"/summit_XL/base_link" -> "/summit_XL/hokuyo_laser_link"[label="Broadcaster: /summit_XL/robot_state_publisher\nAverage rate: 10.256 Hz\nMost recent transform: 1408443969.229 sec old \nBuffer length: 3.900 sec\n"];
+"/summit_XL/base_link" -> "/summit_XL/imu_link"[label="Broadcaster: /summit_XL/robot_state_publisher\nAverage rate: 10.256 Hz\nMost recent transform: 1408443969.229 sec old \nBuffer length: 3.900 sec\n"];
+"/summit_XL/base_link" -> "/summit_XL/back_left_wheel"[label="Broadcaster: /summit_XL/robot_state_publisher\nAverage rate: 10.000 Hz\nMost recent transform: 1408443969.803 sec old \nBuffer length: 3.800 sec\n"];
+"/summit_XL/base_link" -> "/summit_XL/back_right_wheel"[label="Broadcaster: /summit_XL/robot_state_publisher\nAverage rate: 10.000 Hz\nMost recent transform: 1408443969.803 sec old \nBuffer length: 3.800 sec\n"];
+"/summit_XL/base_link" -> "/summit_XL/front_left_wheel"[label="Broadcaster: /summit_XL/robot_state_publisher\nAverage rate: 10.000 Hz\nMost recent transform: 1408443969.803 sec old \nBuffer length: 3.800 sec\n"];
+"/summit_XL/base_link" -> "/summit_XL/front_right_wheel"[label="Broadcaster: /summit_XL/robot_state_publisher\nAverage rate: 10.000 Hz\nMost recent transform: 1408443969.803 sec old \nBuffer length: 3.800 sec\n"];
+"/quadrotor/downward_cam_optical_frame" -> "/image_plane"[label="Broadcaster: /image_plane\nAverage rate: 10.236 Hz\nMost recent transform: 1408443969.691 sec old \nBuffer length: 3.810 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1408443989.725"[ shape=plaintext ] ;
+ }->"/map";
+}

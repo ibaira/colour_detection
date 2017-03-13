@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="colour_detection" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\groovy\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\ros\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\ros\core\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\ros\core\rosbuild\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\platform\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\test\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\tools\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\..\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\env-hooks\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\roscpp\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\roscpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\cpp_common\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\cpp_common\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\message_runtime\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\message_runtime\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\roscpp_serialization\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\roscpp_traits\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\rostime\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\rostime\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\rosconsole\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\rosconsole\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\rosgraph_msgs\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\std_msgs\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\std_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\xmlrpcpp\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\image_view\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\image_view\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\image_transport\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\image_transport\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\message_filters\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\message_filters\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\pluginlib\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\pluginlib\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\class_loader\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\class_loader\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\console_bridge\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\console_bridge\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\roslib\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\roslib\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\sensor_msgs\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\sensor_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\geometry_msgs\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\cv_bridge\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\cv_bridge\cmake\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\tf\;CMake Files\..\..\..\..\..\opt\ros\groovy\share\tf\cmake\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\..\usr\src\gtest\cmake\;CMake Files\build\;CMake Files\build\catkin\;CMake Files\build\catkin\catkin_generated\;CMake Files\build\catkin\catkin_generated\version\;CMake Files\build\catkin_generated\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="clean_test_results">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean_test_results" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="doxygen">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 doxygen" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="find_real_summit">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/find_real_summit" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;colour_detection&quot;" />
+            <Add directory="/home/baira/catkin_ws/devel/ardrone_autonomy/catkin_generated/installspace" />
+            <Add directory="/home/baira/catkin_ws/devel/colour_detection/include" />
+            <Add directory="/opt/ros/groovy/include" />
+            <Add directory="/opt/ros/groovy/include/opencv" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 find_real_summit" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="find_real_summit/fast">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/find_real_summit" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;colour_detection&quot;" />
+            <Add directory="/home/baira/catkin_ws/devel/ardrone_autonomy/catkin_generated/installspace" />
+            <Add directory="/home/baira/catkin_ws/devel/colour_detection/include" />
+            <Add directory="/opt/ros/groovy/include" />
+            <Add directory="/opt/ros/groovy/include/opencv" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 find_real_summit/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="find_summit">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/find_summit" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;colour_detection&quot;" />
+            <Add directory="/home/baira/catkin_ws/devel/ardrone_autonomy/catkin_generated/installspace" />
+            <Add directory="/home/baira/catkin_ws/devel/colour_detection/include" />
+            <Add directory="/opt/ros/groovy/include" />
+            <Add directory="/opt/ros/groovy/include/opencv" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 find_summit" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="find_summit/fast">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/find_summit" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;colour_detection&quot;" />
+            <Add directory="/home/baira/catkin_ws/devel/ardrone_autonomy/catkin_generated/installspace" />
+            <Add directory="/home/baira/catkin_ws/devel/colour_detection/include" />
+            <Add directory="/opt/ros/groovy/include" />
+            <Add directory="/opt/ros/groovy/include/opencv" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 find_summit/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="find_summit_final">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/find_summit_final" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;colour_detection&quot;" />
+            <Add directory="/home/baira/catkin_ws/devel/ardrone_autonomy/catkin_generated/installspace" />
+            <Add directory="/home/baira/catkin_ws/devel/colour_detection/include" />
+            <Add directory="/opt/ros/groovy/include" />
+            <Add directory="/opt/ros/groovy/include/opencv" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 find_summit_final" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="find_summit_final/fast">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/find_summit_final" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;colour_detection&quot;" />
+            <Add directory="/home/baira/catkin_ws/devel/ardrone_autonomy/catkin_generated/installspace" />
+            <Add directory="/home/baira/catkin_ws/devel/colour_detection/include" />
+            <Add directory="/opt/ros/groovy/include" />
+            <Add directory="/opt/ros/groovy/include/opencv" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 find_summit_final/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="geometry_msgs_generate_messages_cpp">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="geometry_msgs_generate_messages_lisp">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_lisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="geometry_msgs_generate_messages_py">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="getmodelstate">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/getmodelstate" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;colour_detection&quot;" />
+            <Add directory="/home/baira/catkin_ws/devel/ardrone_autonomy/catkin_generated/installspace" />
+            <Add directory="/home/baira/catkin_ws/devel/colour_detection/include" />
+            <Add directory="/opt/ros/groovy/include" />
+            <Add directory="/opt/ros/groovy/include/opencv" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 getmodelstate" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="getmodelstate/fast">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/getmodelstate" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;colour_detection&quot;" />
+            <Add directory="/home/baira/catkin_ws/devel/ardrone_autonomy/catkin_generated/installspace" />
+            <Add directory="/home/baira/catkin_ws/devel/colour_detection/include" />
+            <Add directory="/opt/ros/groovy/include" />
+            <Add directory="/opt/ros/groovy/include/opencv" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 getmodelstate/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="predict_step">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/predict_step" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;colour_detection&quot;" />
+            <Add directory="/home/baira/catkin_ws/devel/ardrone_autonomy/catkin_generated/installspace" />
+            <Add directory="/home/baira/catkin_ws/devel/colour_detection/include" />
+            <Add directory="/opt/ros/groovy/include" />
+            <Add directory="/opt/ros/groovy/include/opencv" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 predict_step" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="predict_step/fast">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/predict_step" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;colour_detection&quot;" />
+            <Add directory="/home/baira/catkin_ws/devel/ardrone_autonomy/catkin_generated/installspace" />
+            <Add directory="/home/baira/catkin_ws/devel/colour_detection/include" />
+            <Add directory="/opt/ros/groovy/include" />
+            <Add directory="/opt/ros/groovy/include/opencv" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 predict_step/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="roscpp_generate_messages_cpp">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="roscpp_generate_messages_lisp">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_lisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="roscpp_generate_messages_py">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rosgraph_msgs_generate_messages_cpp">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rosgraph_msgs_generate_messages_lisp">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_lisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rosgraph_msgs_generate_messages_py">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="run_tests">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 run_tests" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sensor_msgs_generate_messages_cpp">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sensor_msgs_generate_messages_lisp">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_lisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sensor_msgs_generate_messages_py">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="std_msgs_generate_messages_cpp">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="std_msgs_generate_messages_lisp">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_lisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="std_msgs_generate_messages_py">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tests">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 tests" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tf_generate_messages_cpp">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 tf_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tf_generate_messages_lisp">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 tf_generate_messages_lisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tf_generate_messages_py">
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 tf_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tracking">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/tracking" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;colour_detection&quot;" />
+            <Add directory="/home/baira/catkin_ws/devel/ardrone_autonomy/catkin_generated/installspace" />
+            <Add directory="/home/baira/catkin_ws/devel/colour_detection/include" />
+            <Add directory="/opt/ros/groovy/include" />
+            <Add directory="/opt/ros/groovy/include/opencv" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 tracking" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tracking/fast">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/tracking" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;colour_detection&quot;" />
+            <Add directory="/home/baira/catkin_ws/devel/ardrone_autonomy/catkin_generated/installspace" />
+            <Add directory="/home/baira/catkin_ws/devel/colour_detection/include" />
+            <Add directory="/opt/ros/groovy/include" />
+            <Add directory="/opt/ros/groovy/include/opencv" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 tracking/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="window">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/window" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;colour_detection&quot;" />
+            <Add directory="/home/baira/catkin_ws/devel/ardrone_autonomy/catkin_generated/installspace" />
+            <Add directory="/home/baira/catkin_ws/devel/colour_detection/include" />
+            <Add directory="/opt/ros/groovy/include" />
+            <Add directory="/opt/ros/groovy/include/opencv" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 window" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="window/fast">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/window" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_PACKAGE_NAME=&quot;colour_detection&quot;" />
+            <Add directory="/home/baira/catkin_ws/devel/ardrone_autonomy/catkin_generated/installspace" />
+            <Add directory="/home/baira/catkin_ws/devel/colour_detection/include" />
+            <Add directory="/opt/ros/groovy/include" />
+            <Add directory="/opt/ros/groovy/include/opencv" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 window/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/gtest/libgtest.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build/gtest" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/src/gtest" />
+            <Add directory="/usr/src/gtest/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 gtest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest/fast">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/gtest/libgtest.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build/gtest" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/src/gtest" />
+            <Add directory="/usr/src/gtest/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 gtest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest_main">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/gtest/libgtest_main.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build/gtest" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/src/gtest" />
+            <Add directory="/usr/src/gtest/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 gtest_main" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest_main/fast">
+         <Option output="/home/baira/catkin_ws/devel/colour_detection/build/gtest/libgtest_main.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/baira/catkin_ws/devel/colour_detection/build/gtest" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/src/gtest" />
+            <Add directory="/usr/src/gtest/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/baira/catkin_ws/devel/colour_detection/build/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/src/find_real_summit.cpp">
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/src/find_summit.cpp">
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/src/find_summit_final.cpp">
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/src/getmodelstate.cpp">
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/src/predict_step.cpp">
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/src/tracking.cpp">
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/src/window.cpp">
+      </Unit>
+      <Unit filename="/usr/src/gtest/src/gtest-all.cc">
+      </Unit>
+      <Unit filename="/usr/src/gtest/src/gtest_main.cc">
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/ros/core/rosbuild/rostoolchain.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\ros\core\rosbuild\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/all.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/assert.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/catkin_add_env_hooks.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/catkin_destinations.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/catkin_generate_environment.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/catkin_metapackage.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/catkin_package.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/catkin_package_xml.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/catkin_workspace.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/debug_message.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/em_expand.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/python.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/empy.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/find_program_required.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/legacy.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/list_append_unique.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/list_insert_in_workspace_order.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/parse_arguments.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/safe_execute_process.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/stamp.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/catkin_python_setup.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/interrogate_setup_dot_py.py">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/platform/lsb.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\platform\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/platform/ubuntu.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\platform\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/platform/windows.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\platform\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/test/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\test\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/test/catkin_download_test_data.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\test\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/test/download_test_data.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\test\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/test/gtest.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\test\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/test/nosetests.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\test\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/tools/doxygen.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\tools\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/tools/libraries.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\tools\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/tools/rt.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\tools\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/../package.xml">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\..\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/templates/_setup_util.py.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/templates/env.sh.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/templates/setup.bash.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/templates/setup.sh.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/templates/setup.zsh.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/templates/rosinstall.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/templates/_setup_util.py.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/templates/env.sh.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/templates/setup.bash.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/templates/setup.sh.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/templates/setup.zsh.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/templates/rosinstall.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/templates/generate_cached_setup.py.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/templates/env.sh.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/catkin/cmake/env-hooks/05.catkin-test-results.sh.develspace.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\catkin\cmake\env-hooks\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/cpp_common/cmake/cpp_commonConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/message_runtime/cmake/message_runtimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/rostime/cmake/rostimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/rostime/cmake/rostimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/rosconsole/cmake/rosconsoleConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/rosconsole/cmake/rosconsole-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/image_view/cmake/image_viewConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\image_view\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/image_view/cmake/image_viewConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\image_view\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/image_transport/cmake/image_transportConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\image_transport\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/image_transport/cmake/image_transportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\image_transport\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/message_filters/cmake/message_filtersConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\message_filters\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/message_filters/cmake/message_filtersConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\message_filters\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/pluginlib/cmake/pluginlibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\pluginlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/pluginlib/cmake/pluginlibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\pluginlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/class_loader/cmake/class_loaderConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\class_loader\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/class_loader/cmake/class_loaderConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\class_loader\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/class_loader/cmake/class_loader-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\class_loader\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/console_bridge/cmake/console_bridgeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\console_bridge\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/console_bridge/cmake/console_bridgeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\console_bridge\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/roslib/cmake/roslibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/roslib/cmake/roslibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/roslib/cmake/roslib-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/sensor_msgs/cmake/sensor_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/sensor_msgs/cmake/sensor_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/sensor_msgs/cmake/sensor_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/geometry_msgs/cmake/geometry_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\cv_bridge\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/cv_bridge/cmake/cv_bridgeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\cv_bridge\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/tf/cmake/tfConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\tf\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/tf/cmake/tfConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\tf\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../opt/ros/groovy/share/tf/cmake/tf-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\groovy\share\tf\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../usr/src/gtest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\src\gtest\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../usr/src/gtest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\src\gtest\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../usr/src/gtest/cmake/internal_utils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\src\gtest\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/../../../../../usr/src/gtest/cmake/internal_utils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\src\gtest\cmake\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/build/catkin/catkin_generated/version/package.cmake">
+          <Option virtualFolder="CMake Files\build\catkin\catkin_generated\version\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/build/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\build\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/baira/catkin_ws/devel/colour_detection/build/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\build\catkin_generated\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

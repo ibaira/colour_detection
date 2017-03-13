@@ -1,0 +1,8 @@
+prefix=/home/baira/catkin_ws/devel/colour_detection/devel
+
+Name: colour_detection
+Description: Description of colour_detection
+Version: 0.0.0
+Cflags: -I/home/baira/catkin_ws/devel/colour_detection/include
+Libs: -L/home/baira/catkin_ws/devel/colour_detection/devel/lib 
+Requires: 
